@@ -57,7 +57,7 @@ Não
 """
 
 cromossomo = input("Digite o cromossomo: ")
-posicao = int(input("Digite uma posição: "))
+posicao = int(input("Digite a posição: "))
 genomareferencia = input("Digite o genoma de referência: ")
 geneBRCA1 = cromossomo == "chr17"
 posicaohg19 = (posicao >= 41196312) and (posicao <= 41277500)
