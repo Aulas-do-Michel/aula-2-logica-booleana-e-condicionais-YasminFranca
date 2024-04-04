@@ -22,5 +22,5 @@ numero = int(input("Digite um número: "))
 impar = (numero % 2)
 if impar > 0:
   print("Ímpar")
-else
+else:
   print("Par")
