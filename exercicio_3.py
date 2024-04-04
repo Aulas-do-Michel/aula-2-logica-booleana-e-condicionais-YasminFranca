@@ -94,7 +94,7 @@ posicaohg38 = (posicao >=43044295) and (posicao <=43125483)
 
 if geneBRCA1 and posicaohg19 and genomareferencia == "hg19":
     print("Sim")
-if geneBRCA1 and posicaohg38 and genomareferencia == "hg38":
+elif geneBRCA1 and posicaohg38 and genomareferencia == "hg38":
     print("Sim")
 else:
     print("Não")
