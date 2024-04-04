@@ -37,33 +37,11 @@ Resposta:
 Sim
 
 """
-#Objetivo: "Identificar se a variante está no gene BRCA1"
-
-#Primeiro passo:
-#Receber um input do cromossomo de uma variante.
-#Por exemplo: "chr1", "chr2", etc.
 
 cromossomo = input("Digite o cromossomo: ")
-
-#Segundo passo:
-#Receber um input da posição da variante.
-#ATENÇÃO: Será um número inteiro.
-
 posicao = int(input("Digite uma posição: "))
-
-#Dessa forma:
-#A variante estará no gene BRCA1 se estiver no cromossomo 17 (chr17).
-
 geneBRCA1 = cromossomo == "chr17"
-
-#E se a posição estiver no INTERVALO de 41196312 a 41277500.
-
 posicaoBRCA1 = (posicao >= 41196312) and (posicao <= 41277500)
-
-#Terceiro passo:
-#"Sim" se estiver no gene BRCA1.
-#"Não" se ela não estiver no gene BRCA1.
-
 if geneBRCA1 and posicaoBRCA1:
     print("Sim")
 else:
