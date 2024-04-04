@@ -39,10 +39,10 @@ Sim
 """
 
 cromossomo = input("Digite o cromossomo: ")
-posicao = int(input("Digite uma posição: "))
+posicao = int(input("Digite a posição: "))
 geneBRCA1 = cromossomo == "chr17"
-posicaoBRCA1 = (posicao >= 41196312) and (posicao <= 41277500)
-if geneBRCA1 and posicaoBRCA1:
+posicaoBRCA17 = (posicao >= 41196312) and (posicao <= 41277500)
+if geneBRCA17 and posicaoBRCA17:
     print("Sim")
 else:
     print("Não")
